@@ -32,7 +32,7 @@ $exists = tableExists($db, "rooms");
 if (!$exists) {
     //create the database
     $db->exec("CREATE TABLE IF NOT EXISTS rooms (
-                        id INTEGER PRIMARY KEY, 
+                        id INTEGER PRIMARY KEY AUTO_INCREMENT, 
                         name TEXT, 
                         capacity INTEGER,
                         status VARCHAR(30))");
