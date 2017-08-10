@@ -9,6 +9,13 @@
 
         <link type="text/css" rel="stylesheet" href="icons/style.css" />
 
+		<script>
+			function myFunction()
+			{
+				alert("Room1 = 1000/- INR\nRoom2 = 1000/- INR\nRoom3 = 1000/- INR\nRoom4 = 2000/- INR\nRoom5 = 500/- INR\nRoom6 = 500/- INR\nRoom7 = 1000/-INR\nRoom8 = 1000/- INR\nVIP Suite = 5000/- INR");
+			}
+		</script>
+		
         <style type="text/css">
             .icon {
                 font-size: 14px;
@@ -98,7 +105,15 @@
                     <daypilot-scheduler id="scheduler" daypilot-config="schedulerConfig" daypilot-events="events" ></daypilot-scheduler>
 
                     <div class="space">
-                        <a class="button" href="" id="add-room" ng-click="addRoom()">Add Room</a>
+                        <!-- Fix for ENI-2. UNCOMMENT THE BELOW LINE-->
+						<!-- <a class="button" href="" id="add-room" ng-click="addRoom()">Add Room</a> -->
+						
+						<!-- Comment the below line while fixing ENI-2-->
+						<a href="" id="add-room" ng-click="addRoom()">Add Room</a>
+						
+						
+						<!-- Fix for ENI-4 -->
+						<a class="button" href="" onclick="myFunction()">Room tariff</a>
                     </div>
 
                 </div>
