@@ -53,6 +53,18 @@
             {
                     border-left: 5px solid #f9ba25; /* status: "cleanup", orange color */
             }
+			
+			.button {
+				display: block;
+				width: 100px;
+				height: 10px;
+				background: #4E9CAF;
+				padding: 10px;
+				text-align: center;
+				border-radius: 5px;
+				color: white;
+				font-weight: bold;
+			}
 
         </style>
 
@@ -86,7 +98,7 @@
                     <daypilot-scheduler id="scheduler" daypilot-config="schedulerConfig" daypilot-events="events" ></daypilot-scheduler>
 
                     <div class="space">
-                        <a href="" id="add-room" ng-click="addRoom()">Add Room</a>
+                        <a class="button" href="" id="add-room" ng-click="addRoom()">Add Room</a>
                     </div>
 
                 </div>
