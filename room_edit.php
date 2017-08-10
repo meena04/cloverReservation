@@ -42,9 +42,13 @@
             <div>Status:</div>
             <div>
                 <select id="status" name="status" ng-model="room.status" >
-                    <?php
+                    <?php					
+						// Fix for ENI- 12. Uncomennt the below line
+						// $options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved");
+                        
+						// Comment this line if you're fixing ENI-12
                         $options = array("Ready", "Cleanup", "Dirty");
-                        foreach ($options as $option) {
+						foreach ($options as $option) {
                             $selected = $option == $room['status'] ? ' selected="selected"' : '';
                             $id = $option;
                             $name = $option;
