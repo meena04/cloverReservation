@@ -7,12 +7,12 @@
 					<h1 id="logo"> Clover Bed & Breakfast, Bangalore  - Room Reservation Service </h1>
 										
 					<!-- Fix for ENI-5 -->
-					<!-- UNCOMMENT THIS 
-						<p id="claim"> <a target = '_blank' href="https://www.ness.com/">Ness.com</a> </p> 
-					-->
+					<!-- UNCOMMENT THIS -->
+						
+					    <p id="claim"> <a target = '_blank' href="https://www.ness.com/">Ness.com</a> </p> 
 					
 					<!-- Comment the below code while fixing ENI-5-->
-					<p id="claim"> Ness.com </p>
+					<!-- <p id="claim"> Ness.com </p> -->
 					
                     <hr class="hidden" />
                 </div>

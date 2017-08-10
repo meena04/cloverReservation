@@ -43,11 +43,11 @@
             <div>
                 <select id="status" name="status" ng-model="room.status" >
                     <?php					
-						// Fix for ENI- 12. Uncomennt the below line
-						// $options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved");
+						// Fix for ENI- 12. UNCOMMENT THE BELOW LINE
+						 $options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved");
                         
-						// Comment this line if you're fixing ENI-12
-                        $options = array("Ready", "Cleanup", "Dirty");
+						// Comment only the below line if you're fixing ENI-12
+                        // $options = array("Ready", "Cleanup", "Dirty");
 						foreach ($options as $option) {
                             $selected = $option == $room['status'] ? ' selected="selected"' : '';
                             $id = $option;
