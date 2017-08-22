@@ -24,7 +24,9 @@
             </div>
 			
             
-            <div class="space"><input type="submit" value="Save" ng-click="save()" /> <a href="" ng-click="cancel()">Cancel</a></div>
+            <div class="space"><input type="submit" value="Save" ng-click="save()" /> 
+			<button type="cancel" ng-click="cancel()">Cancel</button>
+			<!-- <a href="" ng-click="cancel()">Cancel</a> --> </div>
         </div>
 
         <script type="text/javascript">
