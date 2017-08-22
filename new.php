@@ -60,11 +60,9 @@
                 room: <?php print $resource ?>
             };
             $scope.delete = function() {
-			if(confirm("Are you sure want to delete this Booking?")){
                 $http.post("backend_delete.php", $scope.reservation).success(function(data) {
                     DayPilot.Modal.close(data);
-                }); 
-			}				
+                });   
             };
             $scope.save = function() {
                 $http.post("backend_create.php", $scope.reservation).success(function(data) {

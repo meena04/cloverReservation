@@ -211,13 +211,11 @@
                             });
                         },
                         onEventDeleted: function(args) {
-							if(confirm("Are you sure want to delete this Room reservation?")){
-								$http.post("backend_delete.php", {
-									id: args.e.id()
-								}).then(function() {
-									dp.message("Deleted.");
-								});
-							} 
+                            $http.post("backend_delete.php", {
+                                id: args.e.id()
+                            }).then(function() {
+                                dp.message("Deleted.");
+                            });
                         },
                         onTimeRangeSelected: function (args) {
                             var modal = new DayPilot.Modal();
