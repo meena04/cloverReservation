@@ -106,10 +106,10 @@
 
                     <div class="space">
                         <!-- Fix for ENI-2. UNCOMMENT THE BELOW LINE-->
-						<!-- <a class="button" href="" id="add-room" ng-click="addRoom()">Add Room</a>  -->
+						<a class="button" href="" id="add-room" ng-click="addRoom()">Add Room</a> 
 						
 						<!-- Comment the below line while fixing ENI-2-->
-						<a href="" id="add-room" ng-click="addRoom()">Add Room</a> 
+						<!-- <a href="" id="add-room" ng-click="addRoom()">Add Room</a>   -->
 						
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
 						<!-- <br> -->
