@@ -25,9 +25,9 @@
         <div ng-app="main" ng-controller="NewReservationController" style="padding:10px">
 			<!-- Fix for ENI-8 -->
 			<!-- Uncomment the below line -->
-             <h1>New Room Reservation</h1> 
+            <!-- New Room Reservation -->
 			<!-- comment the below line as the Fix for ENI-8-->
-            <!--<h1>New Reservation</h1>-->
+            <h1>New Reservation</h1>
             <div>Name: </div>
             <div><input type="text" id="name" name="name" ng-model="reservation.name" /></div>
             <div>Start:</div>
