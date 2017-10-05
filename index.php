@@ -106,15 +106,14 @@
 
                     <div class="space">
                         <!-- Fix for ENI-2. UNCOMMENT THE BELOW LINE-->
-						 <a class="button" href="" id="add-room" ng-click="addRoom()">Create new room</a> 
+						 <a class="button" href="" id="add-room" ng-click="addRoom()">Create room</a> 
 						
 						<!-- Comment the below line while fixing ENI-2-->
-						<a href="" id="add-room" ng-click="addRoom()">Add Room</a>   
-						<!-- <a href="" id="show-tariff" ng-click="showTariff()">Show Tariff</a>  --> 
+						<!-- <a href="" id="add-room" ng-click="addRoom()">Add room</a>   -->
 						
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
-						<!-- <br> -->
-					 <a class="button" href="" onclick="myFunction()">Room tariff</a> 
+						 <br> 
+						 <a class="button" href="" onclick="myFunction()">Room tariff</a> 
                     </div>
 
                 </div>
@@ -127,12 +126,7 @@
                 var app = angular.module('main', ['daypilot']).controller('DemoCtrl', function($scope, $timeout, $http) {
 
                     $scope.roomType = 0;
-						
-					$scope.showTariff = function(){
-						window.alert('tariff');
-					}
-	
-		
+
                     $scope.$watch("roomType", function() {
                         loadResources();
                     });
