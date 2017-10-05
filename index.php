@@ -110,6 +110,7 @@
 						
 						<!-- Comment the below line while fixing ENI-2-->
 						<a href="" id="add-room" ng-click="addRoom()">Add Room</a>   
+						<a href="" id="show-tariff" ng-click="showTariff()">Show Tariff</a>   
 						
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
 						<!-- <br> -->
@@ -126,7 +127,12 @@
                 var app = angular.module('main', ['daypilot']).controller('DemoCtrl', function($scope, $timeout, $http) {
 
                     $scope.roomType = 0;
-
+						
+					$scope.showTariff = function(){
+						window.alert('tariff');
+					}
+	
+		
                     $scope.$watch("roomType", function() {
                         loadResources();
                     });
