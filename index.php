@@ -112,14 +112,19 @@
 
                     <div class="space">
                         <!-- Fix for ENI-2. UNCOMMENT THE BELOW LINE-->
-						<!-- <a class="button" href="" id="add-room" ng-click="addRoom()">Create room</a> -->
+						<a class="button" href="" id="add-room" ng-click="addRoom()">Create room</a>
 						
 						<!-- Comment the below line while fixing ENI-2-->
-						 <a href="" id="add-room" ng-click="addRoom()">Add room</a>   
+						 <!--<a href="" id="add-room" ng-click="addRoom()">Add room</a>--> 
 						
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
+<<<<<<< HEAD
+						<!-- <br> -->
+						<a class="button" href="" onclick="myFunction()">Room tariff</a>
+=======
 						<!-- <br> 
 						 <a class="button" href="" onclick="myFunction()">Room tariff</a> -->
+>>>>>>> 4d33889cc2023c2e7e8caa6852a34764c325fe11
                     </div>
 
                 </div>
