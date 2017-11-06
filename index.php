@@ -94,7 +94,7 @@
                 </div>
                 <div style="margin-left: 160px">
                     <div class="space options">
-                        <strong>Room Filter:</strong>
+                        <strong>Room Filterrr:</strong>
                         <select ng-model="roomType">
                             <option value="0">All</option>
                             <option value="1">Single</option>
