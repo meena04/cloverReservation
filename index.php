@@ -96,7 +96,7 @@
 					<!-- Fix for ENI-24. UNCOMMENT THE BELOW LINE-->
                     <div class="space options" style="font-weight:bold"> 
 					<!-- Comment the below line while fixing ENI-24-->
-                   <!-- <div class="space options"-->
+                   <!-- <div class="space options"--> 
                         Room Filter:
 					<!-- Fix for ENI-25. UNCOMMENT THE BELOW LINE-->
 					<select ng-model="roomType" style="background-color:#f2f2f2"> 
@@ -118,13 +118,9 @@
 						 <!--<a href="" id="add-room" ng-click="addRoom()">Add room</a>--> 
 						
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
-<<<<<<< HEAD
 						<!-- <br> -->
 						<a class="button" href="" onclick="myFunction()">Room tariff</a>
-=======
-						<!-- <br> 
-						 <a class="button" href="" onclick="myFunction()">Room tariff</a> -->
->>>>>>> 4d33889cc2023c2e7e8caa6852a34764c325fe11
+
                     </div>
 
                 </div>
