@@ -62,9 +62,9 @@
             <div class="space"><input type="submit" value="Save" ng-click="save()" /> 
 			<!-- Fix for ENI-26 -->
 			<!-- Uncomment the below line -->
-			<!-- <button type="cancel" ng-click="cancel()">Cancel</button> -->
+			<button type="cancel" ng-click="cancel()">Cancel</button>
 			<!-- Comment the below line while fixing ENI-26-->
-			<a href="" ng-click="cancel()">Cancel</a></div>
+			<!-- <a href="" ng-click="cancel()">Cancel</a></div> -->
         </div>
 
         <script type="text/javascript">
