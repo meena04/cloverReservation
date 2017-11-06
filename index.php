@@ -93,8 +93,14 @@
                     <daypilot-navigator id="navigator" daypilot-config="navigatorConfig"></daypilot-navigator>
                 </div>
                 <div style="margin-left: 160px">
+					<!-- Fix for ENI-24. UNCOMMENT THE BELOW LINE-->
+                    <!-- <div class="space options" style="font-weight:bold"> -->
+					<!-- Comment the below line while fixing ENI-24-->
                     <div class="space options">
-                        <strong>Room Filterrr:</strong>
+                        Room Filter:
+					<!-- Fix for ENI-25. UNCOMMENT THE BELOW LINE-->
+					<!--<select ng-model="roomType" style="background-color:#f2f2f2"> -->
+					<!-- Comment the below line while fixing ENI-25-->
                         <select ng-model="roomType">
                             <option value="0">All</option>
                             <option value="1">Single</option>
