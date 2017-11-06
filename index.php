@@ -99,9 +99,9 @@
                     <div class="space options">
                         Room Filter:
 					<!-- Fix for ENI-25. UNCOMMENT THE BELOW LINE-->
-					<!--<select ng-model="roomType" style="background-color:#f2f2f2"> -->
+					<select ng-model="roomType" style="background-color:#f2f2f2"> 
 					<!-- Comment the below line while fixing ENI-25-->
-                        <select ng-model="roomType">
+                    <!--    <select ng-model="roomType">-->
                             <option value="0">All</option>
                             <option value="1">Single</option>
                             <option value="2">Double</option>
