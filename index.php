@@ -93,8 +93,8 @@
                     <daypilot-navigator id="navigator" daypilot-config="navigatorConfig"></daypilot-navigator>
                 </div>
                 <div style="margin-left: 160px">
-                    <div class="space options" style="font-weight:bold">
-                        Room Filter:
+                    <div class="space options">
+                        <strong>Room Filter:</strong>
                         <select ng-model="roomType">
                             <option value="0">All</option>
                             <option value="1">Single</option>
