@@ -93,8 +93,14 @@
                     <daypilot-navigator id="navigator" daypilot-config="navigatorConfig"></daypilot-navigator>
                 </div>
                 <div style="margin-left: 160px">
+					<!-- Fix for ENI-24. UNCOMMENT THE BELOW LINE-->
+                    <!-- <div class="space options" style="font-weight:bold"> -->
+					<!-- Comment the below line while fixing ENI-24-->
                     <div class="space options">
                         Room Filter:
+					<!-- Fix for ENI-25. UNCOMMENT THE BELOW LINE-->
+					<!--<select ng-model="roomType" style="background-color:#f2f2f2"> -->
+					<!-- Comment the below line while fixing ENI-25-->
                         <select ng-model="roomType">
                             <option value="0">All</option>
                             <option value="1">Single</option>
@@ -106,14 +112,19 @@
 
                     <div class="space">
                         <!-- Fix for ENI-2. UNCOMMENT THE BELOW LINE-->
-						<a class="button" href="" id="add-room" ng-click="addRoom()">Add Room</a> 
+						<a class="button" href="" id="add-room" ng-click="addRoom()">Create room</a>
 						
 						<!-- Comment the below line while fixing ENI-2-->
-						<!-- <a href="" id="add-room" ng-click="addRoom()">Add Room</a>   -->
+						 <!--<a href="" id="add-room" ng-click="addRoom()">Add room</a>--> 
 						
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
+<<<<<<< HEAD
 						<!-- <br> -->
 						<a class="button" href="" onclick="myFunction()">Room tariff</a>
+=======
+						<!-- <br> 
+						 <a class="button" href="" onclick="myFunction()">Room tariff</a> -->
+>>>>>>> 4d33889cc2023c2e7e8caa6852a34764c325fe11
                     </div>
 
                 </div>
