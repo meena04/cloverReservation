@@ -44,10 +44,10 @@
                 <select id="status" name="status" ng-model="room.status" >
                     <?php					
 						// Fix for ENI-12. UNCOMMENT THE BELOW LINE
-						// $options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved"); 
+						$options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved"); 
                         
 						// Comment only the below line while finxing ENI-12
-                        $options = array("Ready", "Cleanup", "Dirty");
+                        // $options = array("Ready", "Cleanup", "Dirty");
 						foreach ($options as $option) {
                             $selected = $option == $room['status'] ? ' selected="selected"' : '';
                             $id = $option;
