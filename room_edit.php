@@ -44,10 +44,10 @@
                 <select id="status" name="status" ng-model="room.status" >
                     <?php					
 						// Fix for ENI-12. UNCOMMENT THE BELOW LINE
-						$options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved"); 
+						// $options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved"); 
                         
 						// Comment only the below line while finxing ENI-12
-                        // $options = array("Ready", "Cleanup", "Dirty");
+                        $options = array("Ready", "Cleanup", "Dirty");
 						foreach ($options as $option) {
                             $selected = $option == $room['status'] ? ' selected="selected"' : '';
                             $id = $option;
@@ -60,11 +60,12 @@
 
 
             <div class="space"><input type="submit" value="Save" ng-click="save()" /> 
-			<!-- Fix for ENI-26 -->
-			<!-- Uncomment the below line -->
-			<button type="cancel" ng-click="cancel()">Cancel</button>
-			<!-- Comment the below line while fixing ENI-26-->
-			<!-- <a href="" ng-click="cancel()">Cancel</a></div> -->
+				<!-- Fix for ENI-26 -->
+				<!-- Uncomment the below line -->
+				<!-- <button type="cancel" ng-click="cancel()">Cancel</button> -->
+				<!-- Comment the below line while fixing ENI-26-->
+				<a href="" ng-click="cancel()">Cancel</a>
+			</div> 
         </div>
 
         <script type="text/javascript">

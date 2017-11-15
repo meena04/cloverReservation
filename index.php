@@ -94,32 +94,32 @@
                 </div>
                 <div style="margin-left: 160px">
 					<!-- Fix for ENI-24. UNCOMMENT THE BELOW LINE-->
-                    <div class="space options" style="font-weight:bold"> 
+                    <!-- <div class="space options" style="font-weight:bold"> --> 
 					<!-- Comment the below line while fixing ENI-24-->
-                   <!-- <div class="space options"--> 
+                    <div class="space options">
                         Room Filter:
 					<!-- Fix for ENI-25. UNCOMMENT THE BELOW LINE-->
-					<select ng-model="roomType" style="background-color:#f2f2f2"> 
+					<!-- <select ng-model="roomType" style="background-color:#f2f2f2"> -->
 					<!-- Comment the below line while fixing ENI-25-->
-                    <!--    <select ng-model="roomType">-->
+						<select ng-model="roomType">
                             <option value="0">All</option>
                             <option value="1">Single</option>
                             <option value="2">Double</option>
                             <option value="4">Family</option>
-                        </select>
+						</select>
                     </div>
                     <daypilot-scheduler id="scheduler" daypilot-config="schedulerConfig" daypilot-events="events" ></daypilot-scheduler>
 
                     <div class="space">
                         <!-- Fix for ENI-2. UNCOMMENT THE BELOW LINE-->
-						<a class="button" href="" id="add-room" ng-click="addRoom()">Create room</a>
+						<!--<a class="button" href="" id="add-room" ng-click="addRoom()">Create room</a> -->
 						
 						<!-- Comment the below line while fixing ENI-2-->
-						 <!--<a href="" id="add-room" ng-click="addRoom()">Add room</a>--> 
+						<a href="" id="add-room" ng-click="addRoom()">Add room</a>
 						
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
 						<!-- <br> -->
-						<a class="button" href="" onclick="myFunction()">Room tariff</a>
+						<!-- <a class="button" href="" onclick="myFunction()">Room tariff</a> -->
 
                     </div>
 
