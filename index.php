@@ -114,6 +114,8 @@
                         <!-- Fix for ENI-2. UNCOMMENT THE BELOW LINE-->
 						<a class="button" href="" id="add-room" ng-click="addRoom()">Add room</a>
 						
+						<a href="" id="tariff" ng-click="myFunction()">Tariff</a>
+						
 						<!-- Comment the below line while fixing ENI-2-->
 						<!-- <a href="" id="add-room" ng-click="addRoom()">Add room</a>-->
 						
