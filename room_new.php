@@ -29,10 +29,10 @@
 			<!-- Uncomment the below line -->
 			 <button type="cancel" ng-click="cancel()">Cancel</button>
 			<!-- Comment the below line while fixing ENI-7-->
-			<!-- <a href="" ng-click="cancel()">Cancel</a>  -->
 			</div>
         </div>
 
+		
         <script type="text/javascript">
 
 
