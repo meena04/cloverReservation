@@ -48,8 +48,8 @@
                         
 						// Comment only the below line while finxing ENI-22
 						// Update for ENI-46 
-                        //$options = array("Ready", "Cleanup", "Dirty","Occupied","Reserved");
-						$options = array("Ready", "Cleanup", "Dirty");
+                        $options = array("Ready", "Cleanup", "Dirty","Occupied","Reserved");
+						//$options = array("Ready", "Cleanup", "Dirty");
 						foreach ($options as $option) {
                             $selected = $option == $room['status'] ? ' selected="selected"' : '';
                             $id = $option;
