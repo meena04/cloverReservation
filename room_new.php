@@ -27,7 +27,7 @@
             <div class="space"><input type="submit" value="Save" ng-click="save()" /> 
 			<!-- Fix for ENI-7 -->
 			<!-- Uncomment the below line -->
-			 <button type="cancel" ng-click="cancel()">Cancel</button>
+			 <!---<button type="cancel" ng-click="cancel()">Cancel</button>-->
 			<!-- Comment the below line while fixing ENI-7-->
 			</div>
         </div>
