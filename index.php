@@ -94,7 +94,7 @@
                 </div>
                 <div style="margin-left: 160px">
 					<!-- Fix for ENI-24. UNCOMMENT THE BELOW LINE-->
-                    <div class="space options" style="font-weight:bold"> 
+                    <div class="space options" style="font-weight:normal"> 
 					<!-- Comment the below line while fixing ENI-24-->
                     <!--   <div class="space options">   -->
                         Room Filter:
@@ -121,7 +121,7 @@
 						<!-- Fix for ENI-4. UNCOMMENT THE BELOW 2 LINES -->
 						
 						 <!-- <br> -->
-					     <a class="button" href="" onclick="myFunction()">Room tariff</a> 
+					     <!--  <a class="button" href="" onclick="myFunction()">Room tariff</a>  -->
 						
 
                     </div>

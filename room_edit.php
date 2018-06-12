@@ -44,7 +44,7 @@
                 <select id="status" name="status" ng-model="room.status" >
                     <?php					
 						// Fix for ENI-22. UNCOMMENT THE BELOW LINE
-						$options = array("Ready", "Cleanup", "Dirty", "Occupied", "Reserved"); 
+						$options = array("Ready", "Cleanup", "Dirty"); 
                         
 						// Comment only the below line while finxing ENI-22
 						// Update for ENI-46 
