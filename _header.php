@@ -8,7 +8,7 @@
 										
 					<!-- Fix for ENI-5 -->
 					<!-- UNCOMMENT THIS -->
-					<p id="claim"> Ness.com </p> 
+					<p id="claim"><a href='http://www.ness.com'>Ness.com</a></p> 
 					
 					<!-- Comment the below code while fixing ENI-5-->
 					<!-- <p id="claim"> Ness.com </p> -->
